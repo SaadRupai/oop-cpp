@@ -47,6 +47,8 @@ class Teacher{
                 cout<<"Poor performance!"<<endl;
             }
         }
+        // virtual checks if any latest definition of this method is available in derived class (redeefined in derived class)-runtime polymorphism
+        // when a pointer reference to object of derived class invokes that method, then the redefined version of the method is being called
         virtual void practice(){
             cout<<Name<<" is teaching students."<<endl;
             Rating++;
