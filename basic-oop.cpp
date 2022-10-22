@@ -1,3 +1,7 @@
+// encapsulation
+// polymorphism
+// inheritance
+
 #include<bits/stdc++.h>
 using namespace std;
 
